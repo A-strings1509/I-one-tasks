@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: x-large;
+    font-family: lucida sans, verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    border-radius: 50px;
+    box-shadow: 15px;
+}
+
+
+main {
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.words {
+    background-color: rgb(15, 187, 240);
+    color: white;
+}
+
+.words h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 40px;
+}
+
+section {
+    margin-top: 10em;
+}
+
+fieldset {
+   
+}
+
+section p {
+    font-size: medium;
+
+
+}
+
+.top {
+    border-radius: 5px;
+    color: rgb(15, 187, 240);
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(15, 187, 240);
+}
+
+#h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(15, 187, 240);
+    color: white;
+    font-size: medium;
+    border-style: solid;
+    border-radius: 5em;
+    box-shadow: 200px;
+}
