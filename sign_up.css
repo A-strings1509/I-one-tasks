@@ -40,8 +40,9 @@ section {
     margin-top: 10em;
 }
 
-fieldset {
-   
+input {
+   border-radius: 20px;
+   border: 2px solid ;
 }
 
 section p {
