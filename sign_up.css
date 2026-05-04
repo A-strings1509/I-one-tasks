@@ -3,30 +3,42 @@
     padding: 0;
 }
 
-h1 {
+body h1 {
     font-size: x-large;
     font-family: lucida sans, verdana, sans-serif;
     text-align: center;
 }
 
-body {
-    border-radius: 50px;
-    box-shadow: 15px;
+body h1 span {
+    font-weight: bolder;
+    font-family: Freight Sans, 'Open Sans', sans-serif;
+    font-size: 50px;
 }
 
-
 main {
-    border-radius: 10px;
     box-shadow: 10px;
     display: flex;
     justify-content: center;
-
+    border-radius: 5em;
+    box-shadow: 20px;
 }
 
 
-.words {
+
+main .top {
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+
+
+main .words {
     background-color: rgb(15, 187, 240);
     color: white;
+    text-align: center;
+    margin-top: 10em;
+    border-radius: 0px, 10px, 10px, 0px;
 }
 
 .words h4 {
@@ -38,11 +50,12 @@ main {
 
 section {
     margin-top: 10em;
+
 }
 
 input {
-   border-radius: 20px;
-   border: 2px solid ;
+    border-radius: 20px;
+    border: 2px solid;
 }
 
 section p {
