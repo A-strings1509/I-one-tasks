@@ -29,7 +29,7 @@ main .top {
     border: 5px solid white;
     border-radius: 10px;
     background-color: #fff;
-    
+
 }
 
 
@@ -91,14 +91,37 @@ button {
     border-style: solid;
     border-radius: 5em;
     box-shadow: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
 }
 
-#input{
+#input {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-fieldset{
+#terms {
+    display: block;
+    margin-top: 5px;
+}
+
+
+fieldset {
     border: none;
+}
+
+#words {
+    background-color: rgb(15, 187, 240);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10em;
+    padding-top: 8rem;
+}
+
+span{
+position:inherit ;
+
 }
