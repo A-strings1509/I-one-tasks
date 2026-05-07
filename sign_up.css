@@ -94,6 +94,8 @@ button {
     display: flex;
     justify-content: center;
     padding-top: 7px;
+    left: 10%;
+
 }
 
 #input {
@@ -113,15 +115,18 @@ fieldset {
 }
 
 #words {
-    background-color: rgb(15, 187, 240);
-    color: white;
+
+    background: linear-gradient(to bottom, #fff 0%, #7FEBF1 30%);
     text-align: center;
     justify-content: center;
     margin-top: 10em;
     padding-top: 8rem;
 }
 
-span{
-position:inherit ;
+span {
+    justify-content: inherit;
+}
 
+#checkbox {
+    margin-bottom: 30px;
 }
