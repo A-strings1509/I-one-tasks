@@ -57,6 +57,7 @@ input {
     border-radius: 20px;
     border: 2px solid;
     padding: 10px 0px 10px 5px;
+    position: relative;
 }
 
 section p {
@@ -102,6 +103,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    background-image:url(fa-envelope_fontawesome.png);
 }
 
 #terms {
@@ -123,10 +125,14 @@ fieldset {
     padding-top: 8rem;
 }
 
-span {
-    justify-content: inherit;
+i .fa {
+    float: left;
+    position: relative;
+justify-content: center;
+margin-top: 10px;
 }
 
 #checkbox {
     margin-bottom: 30px;
 }
+
