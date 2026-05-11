@@ -4,15 +4,15 @@
 }
 
 body {
-    color: white;
+    color: black;
 
 }
 
 table {
-    border: 5px white;
+    border: 5px black;
     padding: 15px;
     border-style: dotted;
-    margin-left: 35em;
+    margin-left: 20em;
     margin-top: 5em;
 }
 
@@ -24,7 +24,7 @@ td {
 }
 
 body {
-    background-image: url(https://th.bing.com/th/id/OIP.NuVnzPWoeOedciU6Yt4ZDAHaFc?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3);
+   
     background-size: cover;
 }
 
