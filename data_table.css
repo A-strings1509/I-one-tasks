@@ -24,11 +24,47 @@ td {
 }
 
 body {
-   
+
     background-size: cover;
 }
 
-h1 {
-    text-align: center;
-    padding-bottom: 50px;
+
+.dropdown {
+    position: relative;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 3px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#top{
+    display: inline-flex;
+margin: 5px;
+
+}
+
+.sel{
+   background-color: purple;
+   color: white;
+   height: 50px;
+   width: 200px;
+   border-radius: 15px;
+   margin-left: 70em
 }
