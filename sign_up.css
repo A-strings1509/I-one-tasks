@@ -103,7 +103,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-image:url(fa-envelope_fontawesome.png);
+    background-image: url(fa-envelope_fontawesome.png);
 }
 
 #terms {
@@ -117,22 +117,20 @@ fieldset {
 }
 
 #words {
-
-    background: linear-gradient(to bottom, #fff 0%, #7FEBF1 30%);
+    background: linear-gradient(135deg, #a1eaff 0%, #4facfe 100%);
+    color: white;
     text-align: center;
     justify-content: center;
     margin-top: 10em;
     padding-top: 8rem;
 }
 
-i .fa {
-    float: left;
+#fa {
     position: relative;
-justify-content: center;
-margin-top: 10px;
+    color: black;
+    align-items: 15px;
 }
 
 #checkbox {
     margin-bottom: 30px;
 }
-
