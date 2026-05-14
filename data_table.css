@@ -11,7 +11,6 @@ body {
 table {
     border: 5px black;
     padding: 15px;
-    border-style: dotted;
     margin-left: 20em;
     margin-top: 5em;
 }
@@ -54,17 +53,33 @@ body {
     display: block;
 }
 
-#top{
-    display: inline-flex;
-margin: 5px;
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.sel{
-   background-color: purple;
-   color: white;
-   height: 50px;
-   width: 200px;
-   border-radius: 15px;
-   margin-left: 70em
+ul li {
+    float: left;
+}
+
+ul li #top {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li h3 p{
+    float: left;
+}
+
+.sel {
+    background-color: purple;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    margin-left: 70em
 }
