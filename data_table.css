@@ -5,7 +5,6 @@
 
 body {
     color: black;
-
 }
 
 table {
@@ -22,13 +21,36 @@ td {
     font-size: medium;
 }
 
+.dropdown {
+    position: relative;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 3px;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 ul {
@@ -36,14 +58,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
 }
 
 ul li {
     float: left;
-    display: flexbox;
 }
 
-ul li #top {
+
+
+ul li div {
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -56,5 +80,19 @@ ul li #top {
     height: 50px;
     width: 200px;
     border-radius: 15px;
-    margin-left: 70em
+    margin-left: 70em;
+}
+
+
+h3 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
 }
